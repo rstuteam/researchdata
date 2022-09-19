@@ -1,3 +1,15 @@
+<script>
+    function updateOnlineStatus(event) {
+    const status = navigator.onLine ? "online" : "offline";
+
+    // TODO: if OFFLINE -> Navigate to your 404 page
+    // Put here your redirection code
+  }
+
+  window.addEventListener('online',  updateOnlineStatus);
+  window.addEventListener('offline', updateOnlineStatus);
+</script>
+
 <head>
     <title>Research Team | Data Server</title>
   
