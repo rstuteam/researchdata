@@ -29,10 +29,21 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
 	</head>
 	<body>
+	<header class="site-header">
+			<div class="site-identity">
+			  <a href="#"><img src="./img/logo.png" alt="Site Name" /></a>
+			</div>  
+	 </header>
 	<section class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -93,7 +104,35 @@
 				          	</button>
 				        	</td>
 						    </tr>
+
+							<td class="d-flex align-items-center">
+								<div class="pl-3 email">
+									 <td>KK 8B</td>
+								</div>
+							</td>
+							<td>FO 8H</td>
+							<td class="status border-bottom-0"><span class="warn">Active</span></td>
+							<td>
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							  <span aria-hidden="true"><i class="fa fa-close"></i></span>
+				          	</button>
+				        	</td>
+						    </tr>
 						    
+                            <td class="d-flex align-items-center">
+								<div class="pl-3 email">
+									 <td>AWF 8B</td>
+								</div>
+							</td>
+							<td>NSYW 8H</td>
+							<td class="status border-bottom-0"><span class="waiting">No Info</span></td>
+							<td>
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							  <span aria-hidden="true"><i class="fa fa-close"></i></span>
+				          	</button>
+				        	</td>
+						    </tr>
+
 							<tr class="alert" role="alert"> 
 						      <td class="d-flex align-items-center">
 						      	<div class="pl-3 email">
@@ -107,19 +146,19 @@
 						      	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				            	<span aria-hidden="true"><i class="fa fa-close"></i></span>
 				          	</button>
-				        	</td>
-						    </tr>
+						    </td>
+					         </tr>
 
-						      <td class="d-flex align-items-center border-bottom-0">
-						      	<div class="pl-3 email">
-						      		<td>RF MNT 8</td>
-						      	</div>
-						      </td>
-						      <td class="border-bottom-0">AISYH 8</td>
-						      <td class="status border-bottom-0"><span class="waiting">No Info</span></td>
-						      <td class="border-bottom-0">
-						      	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				            	<span aria-hidden="true"><i class="fa fa-close"></i></span>
+							 <td class="d-flex align-items-center">
+								<div class="pl-3 email">
+									 <td>RHL 8B</td>
+								</div>
+							</td>
+							<td>WKY 8H</td>
+							<td class="status border-bottom-0"><span class="warn">Active</span></td>
+							<td>
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							  <span aria-hidden="true"><i class="fa fa-close"></i></span>
 				          	</button>
 				        	</td>
 						    </tr>
@@ -147,7 +186,23 @@
 									</div>
 								</td>
 								<td>ALSYH 8H</td>
-								<td class="status border-bottom-0"><span class="waiting">Waiting for Respons</span></td>
+								<td class="status border-bottom-0"><span class="waiting">Waiting Confirmation</span></td>
+
+								<td>
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								  <span aria-hidden="true"><i class="fa fa-close"></i></span>
+								</button>
+							  </td>
+							  </tr>
+
+							  <tr class="alert" role="alert"> 
+								<td class="d-flex align-items-center">
+									<div class="pl-3 email">
+										 <td>FSHL 8C</td>
+									</div>
+								</td>
+								<td>IFR</td>
+								<td class="status border-bottom-0"><span class="waiting">Waiting Confirmation</span></td>
 
 								<td>
 									<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -193,7 +248,7 @@
 									</div>
 								</td>
 								<td>SHKL 8</td>
-								<td class="status border-bottom-0"><span class="waiting">Friend Zone (-)</span></td>
+								<td class="status"><span class="warn">Active</span></td>
 								<td>
 									<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 								  <span aria-hidden="true"><i class="fa fa-close"></i></span>
@@ -208,7 +263,7 @@
 									</div>
 								</td>
 								<td>SLWA 8</td>
-								<td class="status"><span class="warn">Active</span></td>
+								<td class="status"><span class="waiting">No Info</span></td>
 								<td>
 									<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 								  <span aria-hidden="true"><i class="fa fa-close"></i></span>
@@ -256,10 +311,48 @@
 		</div>
 	</section>
 
+	<footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
+                        <img class="logo-footer" src="./img/logo.png" alt="logo-footer" data-at2x="./img/logo.png">
+                        <p>
+                            Informasi yang terdapat di website ini sudah didasari dengan penelitian dan investigasi yang mendalam.
+                        </p>
+                        
+                    </div>
+                    <div class="col-md-4 col-lg-4 consol offset-lg-1 footer-contact wow fadeInDown">
+                        <h3>/research Project</h3>
+                        <p>
+                            /research project is an indonesian website project for investigation documentation from Intel Almah 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                       <div class="col-md-5 consol footer-copyright">
+                        <p>&copy;2022 Intel Almah</p>
+                   </div>
+            </div>
+        </div>
+    </footer>
+
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
 
 	</body>
 </html>
