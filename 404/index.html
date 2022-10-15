@@ -1,3 +1,11 @@
+<script>
+  window.addEventListener("load", () => {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+  }
+});
+</script>
+
 <head>
     <title>Research Team | Data Server</title>
   
@@ -19,4 +27,3 @@
     <div class="row">&nbsp;&nbsp;lose any unsaved information in all applications.</div>
     <div class="row">&nbsp;</div>
     <div class="centered">Try to retype the website URL...<span class="blink">&#9608;</span></div>
-</div> 
