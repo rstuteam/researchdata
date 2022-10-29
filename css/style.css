@@ -57,7 +57,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #212224; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -103,9 +103,9 @@ ul ol {
   margin-bottom: 0; }
 
   .site-header { 
-    border-bottom: 1px solid #ccc;
-    padding: .5em 1em;
-    background: #333;
+    border-bottom: 1px solid #191a1c;
+    padding: 0.5em 1em;
+    background: #1c1d1f;
     }
     
     .site-header::after {
@@ -1522,7 +1522,7 @@ pre {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529; }
+  color: #b8bbbf; }
   .table th,
   .table td {
     padding: 0.75rem;
@@ -8325,7 +8325,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: normal;
-  background: #f8f9fd;
+  background: #212224;
   color: gray; }
 
 a {
@@ -8360,7 +8360,10 @@ h1, h2, h3, h4, h5,
 
 .heading-section {
   font-size: 28px;
-  color: #000; }
+  color: #dee0e3;
+  font-family: Consolas;
+  font-weight: bold;
+  font-style: normal; }
 
 .img {
   background-size: cover;
@@ -8381,20 +8384,20 @@ h1, h2, h3, h4, h5,
     padding: 30px;
     font-size: 13px;
     font-weight: 500;
-    color: gray; }
+    color: #8e9399; }
   .table thead tr {
-    background: #fff;
-    border-bottom: 4px solid #eceffa; }
+    background: #313438;
+    border-bottom: 4px solid #3d4045; }
   .table tbody tr {
     margin-bottom: 10px;
-    border-bottom: 4px solid #f8f9fd; }
+    border-bottom: 4px solid #313336; }
     .table tbody tr:last-child {
       border-bottom: 0; }
   .table tbody th, .table tbody td {
     border: none;
     padding: 30px;
     font-size: 14px;
-    background: #fff;
+    background: #292b2e;
     vertical-align: middle; }
   .table tbody td.status span {
     position: relative;
