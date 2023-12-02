@@ -796,15 +796,15 @@ input[type="button"] {
     line-height: calc(5.4rem - .4rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .2rem solid #c5c5c5;
+    background-color: #d99d45;
+    border: .2rem solid #fcb042;
     border-radius: 0px 10px 0px 10px;
 }
 
@@ -818,9 +818,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    background-color: #b8b8b8;
-    border-color: #b8b8b8;
-    color: #000000;
+    background-color: #f2bd70;
+    border-color: #fcb042;
+    color: #ffffff;
     outline: 0;
     border-radius: 0px 10px 0px 10px;
 }
@@ -829,30 +829,30 @@ input[type="button"]:focus {
 /* button primary
  * ------------------------------------------------- */
 
-.btn.btn--primary,
-button.btn--primary,
-input[type="submit"].btn--primary,
-input[type="reset"].btn--primary,
-input[type="button"].btn--primary {
-    border-radius: 0px 10px 0px 10px;
-    background: linear-gradient(-90deg, #d99d45, transparent) #f2bd70;
-    border-color: #fcb042;
-    color: #FFFFFF;
-}
-
-.btn.btn--primary:hover,
-button.btn--primary:hover,
-input[type="submit"].btn--primary:hover,
-input[type="reset"].btn--primary:hover,
-input[type="button"].btn--primary:hover,
-.btn.btn--primary:focus,
-button.btn--primary:focus,
-input[type="submit"].btn--primary:focus,
-input[type="reset"].btn--primary:focus,
-input[type="button"].btn--primary:focus {
-    background-color: #d99d45;
-    border-color: #fcb042;
-}
+ .btn.btn--primary,
+ button.btn--primary,
+ input[type="submit"].btn--primary,
+ input[type="reset"].btn--primary,
+ input[type="button"].btn--primary {
+     border-radius: 0px 10px 0px 10px;
+     background: linear-gradient(-90deg, #089976, transparent) #005555;
+     border-color: #089976;
+     color: #FFFFFF;
+ }
+ 
+ .btn.btn--primary:hover,
+ button.btn--primary:hover,
+ input[type="submit"].btn--primary:hover,
+ input[type="reset"].btn--primary:hover,
+ input[type="button"].btn--primary:hover,
+ .btn.btn--primary:focus,
+ button.btn--primary:focus,
+ input[type="submit"].btn--primary:focus,
+ input[type="reset"].btn--primary:focus,
+ input[type="button"].btn--primary:focus {
+     background-color: #089976;
+     border-color: #33a242;
+ }
 
 
 /* button modifiers
@@ -875,8 +875,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #f2bd70;
-    color: #f2bd70;
+    border: 0.2rem solid #089976;
+    color: #089976;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
