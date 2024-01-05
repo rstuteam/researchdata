@@ -259,7 +259,7 @@ ul ol {
   .footer-top { padding: 60px 0; background: #333; text-align: left; color: #aaa; font-family: Consolas; }
   .footer-top h3 { padding-bottom: 10px;font-family: Consolas; color: #fff; }
   
-  .footer-about img.logo-footer { max-width: 240px; margin-top: 0; margin-bottom: 8px; }
+  .footer-about img.logo-footer { max-width: 240px; margin-top: 0; margin-bottom: 25px; }
   .footer-about p a { color: #aaa; border-bottom: 1px dashed #666; }
   .footer-about p a:hover, .footer-about p a:focus { color: #fff; border-color: #aaa; }
   
@@ -278,7 +278,7 @@ ul ol {
   .footer-copyright a { color: #fff; border: 0; }
   .footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
   .footer-copyright img.logo-footer { max-width: 60px; margin-top: 0; margin-bottom: 8px; }
-  .footer-copyright img.logo-footer2 { max-width: 75px; margin-top: 0; margin-bottom: 8px; margin-left: -15px;}
+  .footer-copyright img.logo-footer2 { max-width: 75px; margin-top: 0; margin-bottom: 8px; margin-left: 0%;}
   .footer-copyright img.logo-footer1 { max-width: 120px; margin-top: 0; margin-bottom: 8px; }
   /* footer navbar */
   .navbar { padding: 0; background: #444; backface-visibility: hidden; }
